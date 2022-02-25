@@ -30,7 +30,7 @@ Basic 3 level application, frontend, backend and database. Frontend is developed
 4. Verify container redis run `$ docker ps -a`
 5. Create/download image redis commander`$ docker pull rediscommander/redis-commander:latest`
 6. Verify image redis commander `$ docker images`
-7. `$ docker inspect my-redis -f "{{json .NetworkSettings.Networks}}"`
+7. Get IPAddress redis server host`$ docker inspect my-redis -f "{{json .NetworkSettings.Networks}}"`
 8. Run container redis commander`$ docker run --name my-redis-commander -p 8081:8081 --env REDIS_HOSTS=local:172.17.0.2`
 9. Verify container run`$ docker ps -a`
 
