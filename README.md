@@ -34,14 +34,6 @@ Basic 3 level application, frontend, backend and database. Frontend is developed
 8. Run container redis commander`$ docker run --name my-redis-commander -p 8081:8081 --env REDIS_HOSTS=local:172.17.0.2`
 9. Verify container run`$ docker ps -a`
 
-
-
-
-
-1. Click `Add PacMan` button to add multiple Pacman to the window. These Pacman start moving from rest (speed 0).
-2. Click `Start Game` button to move the pacmans created in the previous step.
-3. You can continue adding Pacman by click the `Add PacMan` button. Each click will create another pacman with random initial velocity.
-
 <!-- ROADMAP -->
 
 
