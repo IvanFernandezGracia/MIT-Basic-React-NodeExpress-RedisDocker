@@ -21,7 +21,8 @@ Basic 3 level application, frontend, backend and database. Frontend is developed
 3. Run redis database with docker and its command line container.
 
 ## Step Run React App & Server Express
-1. Run React app static files and server express `$ node index.js`
+1. Install dependencies `$ npm install`
+2. Run React app static files and server express `$ node index.js`
 
 ## Step Run Redis and Redis Commander
 1. Create/download image redis `$ docker pull redis:latest`
